@@ -17,11 +17,14 @@ public class UserController
    return "user/insert";
  }
 
- // 회원수정 페이지로 이동
+ // 회원수정 페이지로 이동 
  @RequestMapping("/user/update")
  public String update() {
    logger.info("경로 : update")
 
    return "user/update";
  }
+
+//master 브랜치에 주석 추가
+// 회원 탈퇴시 세션 삭제
 }
